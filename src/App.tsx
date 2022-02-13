@@ -1,5 +1,12 @@
 import React from 'react'
+import Feedback from './Components/feedback/feedback'
 
-export default function App() {
-  return <div>App aasdsdf</div>
+function App() {
+  return (
+    <div className="App">
+      <Feedback />
+    </div>
+  )
 }
+
+export default App
